@@ -12,7 +12,7 @@ The project uses two datasets:
 
 - `true.csv`: CSV file containing true news articles.
 - `fake.csv`: CSV file containing fake news articles.
-- `fake_news_detection.py`: The main Python script for training and testing the model.
+- `index.py`: The main Python script for training and testing the model.
 - `model.pkl`: The saved machine learning model (optional, created after running the script).
 - `vectorizer.pkl`: The saved TF-IDF vectorizer (optional, created after running the script).
 - `README.md`: Project documentation.
@@ -21,8 +21,7 @@ The project uses two datasets:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/fake-news-detection.git
-    cd fake-news-detection
+    git clone https://github.com/surya2821/machine.git
     ```
 
 2. Install the required Python packages:
@@ -36,7 +35,7 @@ The project uses two datasets:
 
 1. Run the `index.py` script to train the model:
     ```bash
-    python fake_news_detection.py
+    index.py
     ```
 
 2. The script will:
