@@ -34,7 +34,7 @@ The project uses two datasets:
 
 ## Usage
 
-1. Run the `fake_news_detection.py` script to train the model:
+1. Run the `index.py` script to train the model:
     ```bash
     python fake_news_detection.py
     ```
